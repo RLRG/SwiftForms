@@ -72,7 +72,7 @@ open class FormBaseCell: UITableViewCell {
         return actionBar
     }
     
-    internal func handleDoneAction(_: UIBarButtonItem) {
+    @objc internal func handleDoneAction(_: UIBarButtonItem) {
         firstResponderElement()?.resignFirstResponder()
     }
     
